@@ -8,7 +8,7 @@ var OPTIONS = {
     'f',
     'Specify output format. Uses handlebar syntax. Available variables are: file, line, column, status, and description.',
     'string',
-    '{{file}}:{{line}}:{{column}}: {{description}}'
+    '{{file}}:{{line}}:{{column}}: {{{description}}}'
   ]
 };
 
