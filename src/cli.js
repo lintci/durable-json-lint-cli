@@ -39,7 +39,7 @@ function interpret(args) {
   cli.options = {};
 
   cli.enable('version', 'glob', 'help');
-  cli.setApp('package.json');
+  cli.setApp(__dirname + '/../package.json');
   cli.setApp('durable-json-lint', cli.version);
 
   var options = cli.parse(OPTIONS),
