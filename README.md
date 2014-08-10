@@ -2,6 +2,12 @@
 
 Provides a CLI for [durable-json-lint](https://www.npmjs.org/package/durable-json-lint).
 
+## Install
+
+``` bash
+npm install -g durable-json-lint-cli
+```
+
 ## Usage
 
 ```
